@@ -1,0 +1,250 @@
+cd /
+ls -a
+cd $HOME
+ls
+ls -a
+cd .ssh/
+ls
+[200~ssh-keygen
+ls
+ssh-keygen
+cd
+git clone git@github.com:abrugxllardo/arquitectura.git
+ls
+cp README arquitectura/
+cd arquitectura/
+ls
+git add README
+git commit -m "Primer archivo"
+git status
+git config --global user.name "abrugxllardo"
+git commit -m "Primer archivo"
+git push origin main
+cat << FIN >> README
+abru
+FIN
+
+git status
+git add .
+git status
+git commit -m "Agrego linea"
+git push origin main
+cd $HOME
+exit
+pwd
+cd /
+pwd
+ls
+ls -a
+ls -l
+ls -a -l
+ls -la
+echo $HOME
+pwd
+whoami
+ls
+cd $HOME
+ls
+pwd
+cd carpeta_compartida/
+ls
+cd $HOME
+cd /
+cd $HOME
+cs carpeta_compartida/
+cd carpeta_compartida/
+ls
+ls -a
+cd $HOME
+ls
+man cat
+cat README
+cp README carpeta_compartida/
+cd carpeta_compartida/
+ls
+cd $HOME
+cd /
+ls
+cd etc/
+ls
+cat passwd
+cd
+pwd
+ls
+cd carpeta_compartida/
+cat vagrantFile
+grep ip Vagrantfile 
+cd /
+ls
+cd var
+ls
+cd log
+ls
+cd $HOME
+pwd
+sudo apt install git
+git --version
+ssh-keygen
+ls
+ls -a
+cd .ssh/
+ls
+cat id_rsa.pub
+pwd
+ls
+cd /
+ls
+cat << FIN
+linea 1
+linea 2
+linea 3
+FIN
+
+cat << FIN > archivo.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat archivo.txt
+cat << FIN > archivo.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+cat archivi.txt
+cat archivo.txt
+cat << FIN >> archivo.txt
+linea 7
+linea 8
+FIN
+
+cat archivo.txt
+tac archivo.txt 
+bc <<< 1+2 
+wc -l << EOF
+linea 1
+linea 2
+linea 3
+EOF
+
+wc -w << EOF
+linea 1 
+linea 2
+EOF
+
+echo "hola mundo"
+echo "hola mundo" | wc
+cat archivo.txt 
+cat archivo.txt | head -n 1
+cat archivo.txt | tail -n 1
+grep linea archivo.txt 
+grep Linea archivo.txt 
+grep -i Linea archivo.txt 
+cat archivo.txt | head -n 2 | grep 5
+cat /proc/cpuinfo
+grep -i proce /proc/cpuinfo
+nproc
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | less
+ls -ls
+ls -la
+mkdir clase3
+ls -la
+cd clase3
+ls -la
+cd ..
+ls -la
+pwd
+mv archivo.txt lineas.txt
+ls -la
+mv lineas.txt clase3/
+ls -la
+cd clase3/
+ls -la
+cp lineas.txt ..
+ls -la
+cd ..
+ls -la
+rm -i lineas.txt 
+ls -la
+rm lineas.txt 
+ls -la
+rmdir clase3/
+cd clase3/
+mv lineas.txt ..
+ls -la
+cd ..
+ls -la
+rm -ri clase3/
+rmdir clase3/
+ls -la
+history
+cat /proc/cpuinfo | grep -i proce
+ls -la
+history > historial.txt
+ls -la
+cat historial.txt 
+cp historial.txt carpeta_compartida/
+ls -la
+cat lineas.txt 
+vim lineas.txt 
+cat lineas.txt 
+vim ejecutable.sh
+cat ejecutable.sh 
+chmod 777 ejecutable.sh 
+./ejecutable.sh 
+vim ejecutable.sh 
+./ejecutable.sh 
+whoami
+echo "Usuario=$(whoami)"
+exit
+cd repogit/
+cd TP_aySO/
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+man grep
+grep -i Home_url /etc(od-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git config --global user.name abrugxllardo
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git config --global user.name "abrugxllardo"
+git commit -m "feat: Añadiendo informacion de CPU"
+man "sort via a key"
+man grep
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7 > lista_ordenada
+git status
+git add .
+git commit -m "ADD: Listado de ususarios ordenada"
+git config --global user.name "abrugxllardo"
+git commit -m "ADD: Listado de ususarios ordenada"
+man dump
+man tcpdump
+echo "Nombre del comando: tcpdump" > comando_dump_net
+echo "Comando para la busqueda: man tcpdump" >> comando_dump_net
+git status
+git add .
+git config --global user.name "abrugxllardo"
+git commit -m "ADD: comando para capturar y analizar el trafico de red"
+cat << FIN >> README.md
+Alumno: Abril Gallardo
+Division: 114
+Turno: Mañana
+FIN
+
+git add .
+git config --global user.name "abrugxllardo"
+git commit -m "docs: Informacion del alumno"
+git config --global user.name "abrugxllardo"
+git commit -m "docs: Informacion del alumno"
+history -a
